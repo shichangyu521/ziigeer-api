@@ -14,3 +14,10 @@ target
 .classpath
 .settings
 .metadata
+mvnw
+mvnw.cmd
+pom.xml
+src/main/java/com/ziigeer/ziigeerapi/
+src/main/resources/
+src/test/
+ziigeer-api.iml
