@@ -17,6 +17,9 @@ public class UserController {
 
     @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     public String test(HttpServletRequest request) {
+
+
+
         return userId;
     }
 }
