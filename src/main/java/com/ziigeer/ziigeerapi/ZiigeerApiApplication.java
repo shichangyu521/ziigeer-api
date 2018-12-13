@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class ZiigeerApiApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("apollo.configService", "http://47.105.100.49:8080");
 		SpringApplication.run(ZiigeerApiApplication.class, args);
 	}
 }
